@@ -122,10 +122,3 @@ In simpler terms, React.createElement needs to know what type of element you wan
 * Render: In the context of React, "render" refers to the process of converting React components or elements into actual HTML elements that can be displayed on the screen. It takes the virtual representation of components created in React and turns them into visible elements that users can see and interact with in the web browser.
 
  * Root: In React, "root" typically refers to the HTML element where the React application gets mounted or inserted into the DOM (Document Object Model). It's the entry point for your React app. When you call ReactDOM.render() in React, you specify the React component you want to render and the DOM element where it should be rendered. This DOM element, often referred to as the "root" element, acts as the container for your entire React application within the HTML document.
-
-
-
-
-
-
-# Today
