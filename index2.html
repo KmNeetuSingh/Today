@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic React Layout</title>
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script>
+    const parentDivStyle = {
+      height: '400px',
+      width: '100%',
+      backgroundColor: 'lightpink',
+      display: 'flex',
+      flexDirection: 'row',
+      justifyContent: 'center', 
+      alignItems: 'center', 
+      gap: '25px', 
+      padding: '50px', 
+    };
+    const childDivColors = [
+      'orange',
+      'yellow',
+      'green',
+      'purple',
+    ];
+
+    const parentDiv = React.createElement(
+      'div',
+      { style: parentDivStyle },
+      'Parent',
+      ...childDivColors.map((color, index) =>
+        React.createElement(
+          'div',
+          {
+            key: `child-${index}`,
+            style: {
+              height: '200px',
+              width: '200px', 
+              backgroundColor: color,
+              border: '1px solid black',
+              display: 'flex', 
+              justifyContent: 'center', 
+              alignItems: 'center', 
+            },
+          },
+          `Child ${index + 1}`
+        )
+      )
+    );
+    ReactDOM.render(parentDiv, document.getElementById('root'));
+  </script>
+</body>
+</html>
