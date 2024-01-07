@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <style>#ram {
+        height: 200px;
+        width: 100%;
+        border: 2px solid rgb(214, 210, 210);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius:5px;
+        background-color:rgba(25, 26, 23, 0.63) ;
+    }
+    
+    
+    .love {
+        color:rgb(233, 180, 180);
+        height: 120px;
+        width: 100px;
+        border: 2px solid rgb(48, 34, 34);
+        text-align:center;
+        border-radius:20px;
+        box-shadow:15px 15px 10px rgba(138, 137, 129, 0.61);
+    }
+    
+    .kush{
+        height:20px;
+        width:20px;
+        margin-left:40%;
+        margin-top:15px;
+        margin-right:40px;
+        border-radius:2px;
+    }</style>
+</head>
+
+<body>
+    <div id="ram">
+        <div class="love">
+            <img class="kush"
+                src="https://tse3.mm.bing.net/th/id/OIP.gI6BtNALGkPXcl0xL-sVkwAAAA?w=236&h=354&c=7&o=5&pid=1.7">
+            <p>Hiring process</p>
+            <h6> 3 days</h6>
+        </div>
+        <div class="love">
+            <img class="kush"
+                src="https://tse3.mm.bing.net/th/id/OIP.gI6BtNALGkPXcl0xL-sVkwAAAA?w=236&h=354&c=7&o=5&pid=1.7">
+            <p>offeracceptance</p>
+            <h6>90%</h6>
+        </div>
+        <div class="love">
+            <img class="kush"
+                src="https://tse3.mm.bing.net/th/id/OIP.gI6BtNALGkPXcl0xL-sVkwAAAA?w=236&h=354&c=7&o=5&pid=1.7">
+            <p>Retention Rate</p>
+            <h6>90%</h6>
+        </div>
+        <div class="love">
+            <img class="kush"
+                src="https://tse3.mm.bing.net/th/id/OIP.gI6BtNALGkPXcl0xL-sVkwAAAA?w=236&h=354&c=7&o=5&pid=1.7">
+            <p style>Hiring Partners</p>
+            <h6>4000+</h6>
+        </div>
+        <div  class="love">
+            <img class ="kush"
+             src="https://tse3.mm.bing.net/th/id/OIP.gI6BtNALGkPXcl0xL-sVkwAAAA?w=236&h=354&c=7&o=5&pid=1.7">
+            <p>
+                Year Round
+            </p>
+            <h6>Availability</h6>
+        </div>
+
+    </div>
+
+    <!-- Your scripts and other body elements go here -->
+</body>
+
+</html>
